@@ -1,0 +1,15 @@
+/Users/yborisovp/RiderProjects/example-an/example-an/bin/Debug/net6.0/example-an
+/Users/yborisovp/RiderProjects/example-an/example-an/bin/Debug/net6.0/example-an.deps.json
+/Users/yborisovp/RiderProjects/example-an/example-an/bin/Debug/net6.0/example-an.runtimeconfig.json
+/Users/yborisovp/RiderProjects/example-an/example-an/bin/Debug/net6.0/example-an.dll
+/Users/yborisovp/RiderProjects/example-an/example-an/bin/Debug/net6.0/example-an.pdb
+/Users/yborisovp/RiderProjects/example-an/example-an/obj/Debug/net6.0/example-an.csproj.AssemblyReference.cache
+/Users/yborisovp/RiderProjects/example-an/example-an/obj/Debug/net6.0/example-an.GeneratedMSBuildEditorConfig.editorconfig
+/Users/yborisovp/RiderProjects/example-an/example-an/obj/Debug/net6.0/example-an.AssemblyInfoInputs.cache
+/Users/yborisovp/RiderProjects/example-an/example-an/obj/Debug/net6.0/example-an.AssemblyInfo.cs
+/Users/yborisovp/RiderProjects/example-an/example-an/obj/Debug/net6.0/example-an.csproj.CoreCompileInputs.cache
+/Users/yborisovp/RiderProjects/example-an/example-an/obj/Debug/net6.0/example-an.dll
+/Users/yborisovp/RiderProjects/example-an/example-an/obj/Debug/net6.0/refint/example-an.dll
+/Users/yborisovp/RiderProjects/example-an/example-an/obj/Debug/net6.0/example-an.pdb
+/Users/yborisovp/RiderProjects/example-an/example-an/obj/Debug/net6.0/example-an.genruntimeconfig.cache
+/Users/yborisovp/RiderProjects/example-an/example-an/obj/Debug/net6.0/ref/example-an.dll
