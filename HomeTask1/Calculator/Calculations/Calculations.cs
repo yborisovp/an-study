@@ -1,4 +1,4 @@
-namespace HomeTask1.Calculator.Calculation;
+namespace HomeTask1.Calculator.Calculations;
 
 public class Calculations
 {

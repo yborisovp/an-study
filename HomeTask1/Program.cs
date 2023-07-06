@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using HomeTask1.Calculator.Calculation;
+using HomeTask1.Calculator.Calculations;
 
 var firstNumber = ConsoleInput.GetFirstNumberFromConsole();
 UserMessages.ShowOperationHints();
