@@ -4,40 +4,43 @@ public class ConsoleInput
 {
     public static float GetFirstNumberFromConsole()
     {
-        Console.Write("Enter number_1: ");
-        if (float.TryParse(Console.ReadLine(), out var number1)) return number1;
-        Console.WriteLine("Not a valid data. Please, enter the number");
-        GetFirstNumberFromConsole();
-
-        return number1;
-    }
-
-    public static float GetSecondNumberFromConsole(char operation)
-    {
-        Console.Write("\nEnter number_2: ");
-        var nmbr = Console.ReadLine();
-
-        if (operation.Equals('/') && nmbr == "0")
+        Console.WriteLine("Enter number_1: ");
+        var number_1 = Console.ReadLine();
+        float parsed_number_1;
+        while (!float.TryParse(number_1, out parsed_number_1))
         {
-            Console.WriteLine("Not a valid data. Number_1 can't divide by 0");
-            GetSecondNumberFromConsole(operation);
+            Console.WriteLine("Not a valid data. Please, enter the number");
+            number_1 = Console.ReadLine();
         }
 
-        if (float.TryParse(nmbr, out var number2)) return number2;
-        Console.WriteLine("Not a valid data. Please, enter the number");
-        GetSecondNumberFromConsole(operation);
+        return parsed_number_1;
+    }
 
-        return number2;
+    public static float GetSecondNumberFromConsole()
+    {
+        Console.WriteLine("\nEnter number_2: ");
+
+        var number_2 = Console.ReadLine();
+        float parsed_number_2;
+        while (!float.TryParse(number_2, out parsed_number_2))
+        {
+            Console.WriteLine("Not a valid data. Please, enter the number");
+            number_2 = Console.ReadLine();
+        }
+
+        return parsed_number_2;
     }
 
     public static char GetCharFromConsole()
     {
-        Console.Write("Enter the operation: ");
+        Console.WriteLine("Enter the operation: ");
         var ch = Console.ReadKey().KeyChar;
         char[] operations = { Convert.ToChar("-"), Convert.ToChar("+"), Convert.ToChar("/"), Convert.ToChar("*") };
-        if (operations.Contains(ch)) return ch;
-        Console.WriteLine("\nNot a valid data. Please, enter the operation character");
-        GetCharFromConsole();
+        while (!operations.Contains(ch))
+        {
+            Console.WriteLine("Not a valid data. Please, enter the operation character");
+            ch = Console.ReadKey().KeyChar;
+        }
 
         return ch;
     }

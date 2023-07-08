@@ -7,14 +7,14 @@ public class UserMessages
         Console.WriteLine("Available operations for calculation are: + - / *");
     }
 
-    public static void ReturnTheResult(float result)
+    public static void TheResultMassage(float result)
     {
-        Console.WriteLine($"\nCalculation result is: {result}");
+        Console.WriteLine($"Calculation result is: {result}");
     }
 
-    public static void EndTheConsoleInteraction()
+    public static void EndTheInteractionMessage()
     {
-        Console.Write("Press any key to close the Calculator console app!");
+        Console.WriteLine("Press any key to end the session!");
         Console.ReadKey();
     }
 }
