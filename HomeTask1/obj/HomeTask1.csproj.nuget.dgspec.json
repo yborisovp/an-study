@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/avaretsa/RiderProjects/Study/an-study/example-an/example-an.csproj": {}
+    "/Users/avaretsa/RiderProjects/Study/an-study/HomeTask1/HomeTask1.csproj": {}
   },
   "projects": {
-    "/Users/avaretsa/RiderProjects/Study/an-study/example-an/example-an.csproj": {
+    "/Users/avaretsa/RiderProjects/Study/an-study/HomeTask1/HomeTask1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/avaretsa/RiderProjects/Study/an-study/example-an/example-an.csproj",
-        "projectName": "example-an",
-        "projectPath": "/Users/avaretsa/RiderProjects/Study/an-study/example-an/example-an.csproj",
+        "projectUniqueName": "/Users/avaretsa/RiderProjects/Study/an-study/HomeTask1/HomeTask1.csproj",
+        "projectName": "HomeTask1",
+        "projectPath": "/Users/avaretsa/RiderProjects/Study/an-study/HomeTask1/HomeTask1.csproj",
         "packagesPath": "/Users/avaretsa/.nuget/packages/",
-        "outputPath": "/Users/avaretsa/RiderProjects/Study/an-study/example-an/obj/",
+        "outputPath": "/Users/avaretsa/RiderProjects/Study/an-study/HomeTask1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/avaretsa/.nuget/NuGet/NuGet.Config"
